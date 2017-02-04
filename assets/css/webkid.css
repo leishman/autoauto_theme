@@ -256,6 +256,7 @@ body * {
   padding: 0;
   margin: 0;
 }
+
 .social-item {
     width: 25%;
     float:left;
@@ -271,9 +272,7 @@ body * {
   color: #fff;
 }
 
-.social-item.rss {
-  background: #f26522;
-}
+
 .social-item:hover {
   opacity: .8;
 }
@@ -282,12 +281,12 @@ body * {
   background: #55acee;
 }
 
-.social-item.home {
-  background: #ffd00e;
+.social-item.facebook {
+  background: #333333;
 }
 
-.social-item.github {
-  background: #333333;
+.social-item.instagram {
+  background: #f26522;
 }
 
 .sidebox.social ul li {
