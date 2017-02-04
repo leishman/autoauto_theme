@@ -272,7 +272,6 @@ body * {
   color: #fff;
 }
 
-
 .social-item:hover {
   opacity: .8;
 }
@@ -298,8 +297,6 @@ body * {
   padding: 0;
   list-style-type: none;
 }
-
-
 
 .box.is-link:hover {
   box-shadow: 0 2px 4px rgba(50,50,50,0.15);
