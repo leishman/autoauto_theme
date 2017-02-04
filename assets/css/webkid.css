@@ -282,11 +282,15 @@ body * {
 }
 
 .social-item.facebook {
-  background: #333333;
+  background: #3b5998;
 }
 
 .social-item.instagram {
   background: #f26522;
+}
+
+.social-item.home {
+  background: #333;
 }
 
 .sidebox.social ul li {
