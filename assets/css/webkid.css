@@ -128,11 +128,11 @@ body * {
 
 #articles .post {
   display: flex;
+  align-items: center;
   flex-direction: row;
   width: 100%;
   margin: 0;
-  padding: 0;
-  padding-bottom: 1em;
+  padding: 0.5em;
   max-width: none;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -141,8 +141,8 @@ body * {
 }
 
 #articles .post .post-image {
-  width: 20%;
-  height: auto;
+  width: 30%;
+  height: 100%;
   display: inline-block;
   background-size: cover;
   background-repeat: no-repeat;
@@ -150,7 +150,7 @@ body * {
 }
 
 #articles .post .post-preview {
-  width: 80%;
+  width: 70%;
   height: auto;
 }
 
