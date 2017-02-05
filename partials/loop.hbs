@@ -7,16 +7,19 @@
         {{#if image}}
             <img class="post-image" src="{{image}}"></img>
         {{/if}}
-        <header class="post-header">
-            <h2 class="post-title">{{{title}}}</h2>
-        </header>
-        <section class="post-excerpt">
-            <p>{{excerpt words="26"}}...</p>
-        </section>
 
-        <footer class="post-meta">
-            <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
-        </footer>
+        <div class="post-preview">
+            <header class="post-header">
+                <h2 class="post-title">{{{title}}}</h2>
+            </header>
+            <section class="post-excerpt">
+                <p>{{excerpt words="26"}}...</p>
+            </section>
+
+            <footer class="post-meta">
+                <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+            </footer>
+        </div>
     </article>
 </a>
 {{/foreach}}
