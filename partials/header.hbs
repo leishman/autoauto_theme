@@ -4,7 +4,7 @@
 
       <div class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></div>
       <ul id="taglist" class="taglist">
-          {{#foreach navigation}}
+          {{#foreach @blog.navigation}}
             <li><a href="{{url absolute="false"}}">{{label}}</a></li>
           {{/foreach}}
       </ul>
