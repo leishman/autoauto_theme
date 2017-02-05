@@ -22,6 +22,7 @@ body * {
 }
 
 #header nav {
+  display: flex;
   padding: 0;
   background-position: center;
   background-size: cover;
@@ -38,14 +39,14 @@ body * {
 
 #header .blog-title {
   font-family: "Open Sans", sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: bold;
   font-size: 30px;
   text-decoration: none;
-  max-width: 1250px;
-  width: 100%;
+  /*max-width: 1250px;*/
+  /*width: 100%;*/
   padding: 1.5rem 1.8rem;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 
 #header .blog-title a,
@@ -56,13 +57,15 @@ body * {
   padding: 0;
 }
 
-#header .taglist-wrapper {
+/*#header .taglist-wrapper {
   width: 100%;
   background: #ffd00e;
   padding: 0;
 }
+*/
 
 #header ul.taglist {
+  display: flex;
   padding: 0 1em;
   margin: 0;
   list-style: none;
@@ -71,11 +74,13 @@ body * {
 }
 
 #header ul.taglist li {
+  display: flex;
+  align-content: center;
   margin: 0;
   padding: .2em .5em;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
-  color: #111;
+  color: #fff;
   font-size: 12px;
   float: left;
   cursor: pointer;
@@ -370,6 +375,16 @@ a.article-link:visited {
 }
 
 @media (max-width: 480px) {
+  #header .blog-title {
+    font-size: 30px;
+    padding: 0.5rem 0.6rem;
+  }
+
+  #content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   #taglist {
     display: none;
   }
