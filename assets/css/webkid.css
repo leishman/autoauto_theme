@@ -75,13 +75,14 @@ body * {
 
 #header ul.taglist li {
   display: flex;
-  align-content: center;
+  align-items: center;
+  height: 100%;
   margin: 0;
   padding: .2em .5em;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
   float: left;
   cursor: pointer;
   transition: none;
@@ -379,6 +380,10 @@ a.article-link:visited {
   #header .blog-title {
     font-size: 30px;
     padding: 0.7rem 0.8rem;
+  }
+
+  #header ul.taglist li {
+    font-size: 12px;
   }
 
   #content {
