@@ -4,8 +4,9 @@
 
       <div class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></div>
       <ul id="taglist" class="taglist">
-          <li><a href="/tag/basics">Basics</a></li>
-          <li><a href="/tag/company">Company Guides</a></li>
+          {{#foreach navigation}}
+            <li><a href="{{url absolute="false"}}">{{label}}</a></li>
+          {{/foreach}}
       </ul>
     </nav>
 </header>
